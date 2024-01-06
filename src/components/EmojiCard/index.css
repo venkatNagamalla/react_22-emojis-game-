@@ -1,0 +1,27 @@
+/* Write your code here. */
+.emoji-card {
+  margin: 3px;
+  width: 110px;
+  height: 110px;
+  background-color: #ffffff33;
+  border: 1.5px solid #ffffff30;
+  border-radius: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .emoji-card {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+.emoji-button {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+}
+
+.emoji {
+  width: 60px;
+}

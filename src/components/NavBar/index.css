@@ -1,0 +1,39 @@
+/* Write your code here. */
+
+.nav-container {
+  background-color: #ffffff33;
+  height: 45px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.emoji-logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: flex-start;
+  width: 100%;
+  padding-left: 10%;
+}
+
+.score-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  padding-left: 20px;
+}
+
+.logo {
+  width: 35px;
+}
+
+.logo-name,
+.score {
+  font-size: 15px;
+  margin-left: 5px;
+  color: #ffffff;
+  font-weight: 500;
+  margin-right: 20px;
+}

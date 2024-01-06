@@ -1,0 +1,49 @@
+/* Write your code here. */
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto';
+  box-sizing: border-box;
+}
+
+.bg-container {
+  background: linear-gradient(#9796f0, #fbc7d4);
+  height: 100vh;
+}
+
+.list-container {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+@media screen and (min-width: 768px) {
+  .list-container {
+    width: 60%;
+    height: 80%;
+  }
+}
+
+.card-container {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.result-card {
+  width: 80%;
+  height: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .result-card {
+    width: 50%;
+    height: 90%;
+    padding: 3px;
+  }
+}
